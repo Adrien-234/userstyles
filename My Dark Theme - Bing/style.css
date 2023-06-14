@@ -1,0 +1,148 @@
+@-moz-document domain(bing.com){
+:root{
+--bg_1:#212121;
+--bg_2:#262626;
+--bg_3:#333;
+--bg_hover:#ffffff17;
+--border_c:#444;
+--color_0:#000;
+--color_1:#dddee1;
+--color_2:#fff;
+--link:#0000ff;
+--link-visited:#8e03ff;
+}
+/*bg 1 & color*/
+html ,body,#bnp_container,.bnp_content,#bepfo
+{background:var(--bg_1) !important;color:var(--color) !important;}
+/* bg 1 */
+#b_header, .b_header_bg.thm_ThDf, #id_hbfo, #b_op_flyout, 
+#b_op_flyout_btn_area, #b_tween .ftrB .b_dropdown, #b_results>li, .scs_t,
+.b_rc_gb_w_content, #rfPane, .sydwrap_wrapper, .touchQuery .carousel .items, 
+#rfPaneIn .touchQuery .carousel .item, .dg_b, .ftrD_MmVert, #miniheader table, 
+.tta_incell, l, #tta_srcsl, .ttrev_icon, #tabcontrol_4_5E7C03_menu>li, 
+.sydwrap_wrapper div#b_syd_sm_chat.sydwrap_sm_chat .b_wpt_chat, 
+.scs_faAc .scs_faAcCon div.scs_rdLnk
+{background:var(--bg_1) !important;}
+/* bg 2 */
+.b_ans, .b_caption .captionMediaCard .b_imagePair.wide_wideAlgo, .b_footer, 
+.touchQuery .carousel .carousel-controls .nav_right, .pagereco_CB, .scs_box, 
+.b_module_expansion, #scs_CF9FF2 .scs_faEfc .b_expandable_inline_container
+{background:var(--bg_2) !important;}
+/* bg 3   */
+.lite-entcard_d45dd .l_ecrd_bkg_hlt, #wikiWidgetContainer, 
+#lgImgAnsContainer,.tab-head.HeroTab>*, #tabcontrol_9_A3552F_menu>li, 
+#b_results #brsv3 .b_vList li a, #b_content .b_pag a.sb_pagS_bp,  .iuscp, .infopt,
+.ftrH_MmVert:hover, .ftrH_MmVert:focus, .ftrHh, .ftrHh:hover, .ftrVS, .ftrHSe, 
+#b-scopeListItem-menu .b_sp_over_menu, #b_syd_tb_border *, 
+.vs_container .richImage.relImg, #miniheader #miniheader_data .itm, 
+.dg_b .dg_u, .mc_vtvc_meta_w .mc_vtvc_meta, #sw_as .sa_as, 
+#sw_as .sa_drw, .tta_outcell, #tta_tgtsl, .tta_outtxt>textarea, .c_tlbx, 
+#tabcontrol_11_5EBAE5_menu>li, #tabcontrol_4_55B4DB_menu>li, 
+#tabcontrol_4_93D222_menu>li, #tabcontrol_11_9408F3_menu>li
+{
+background:var(--bg_3) !important;
+}
+/* bg 3 + border_c  */
+.b_searchboxForm,  .cbtn input,.tab-head.HeroTab
+{background:var(--bg_3) !important;border-color:var(--border_c) !important;}
+/* bg_2 linear-gradient */
+.b_wiki_cover
+{background:linear-gradient(0deg,var(--bg_2),#fff0)!important;}
+
+/* bg_hover */
+.hb_section:active, .hb_section:hover, .hb_section:visited, .hb_card, 
+#b_tween .ftrB a.ftrH.b_selected, #b_tween .ftrB a.ftrH:hover, 
+#b_tween .b_dropdown .b_selected, a.cbtn, .sa_hv
+{background:var(--bg_hover) !important;}
+
+/* color */
+#bnp_desc_left_privacy, .bnp_btn_preference_text, input, .id_button, .hbic_col, 
+#b_op_flyout_no, #b_op_flyout_no, #b_tween, .hb_title_col, .hb_value_col,
+#b_tween a.ftrH, .lite-entcard-main, #b_syd_tb_border *, #tta_tgtsl, #tta_srcsl, 
+.b_rc_gb_sub_hero .b_rc_gb_sub_cell .b_paractl, .l_ecrd_txt_gl,  .b_footnote, 
+#tabcontrol_4_55B4DB_menu .tab-active, 
+#desc, #tabcontrol_4_55B4DB_menu .tab-active, .scs_child strong, 
+.b_algoBigWiki .b_rc_gb_widget_title, .b_rc_gb_header_top>*, .b_caption, 
+.b_rc_gb_w_content *, #b_results .b_ans #brsv3 h2, .iacd .irp a.imgText.trunc, 
+#tabcontrol_9_A3552F_menu .tab-active, 
+#tabcontrol_9_A3552F_menu .tab-active:hover, .scs_tx,
+#tabcontrol_9_A3552F_menu>li:hover, #tabcontrol_4_93D222_menu .tab-active, 
+.b_caption .captionMediaCard .b_imagePair a p, 
+.b_algo .b_factrow, #tabcontrol_11_9408F3_menu .tab-active,
+.b_algoSlug .algoSlug_icon, #tabcontrol_11_9408F3_menu .tab-active, 
+#b-scopeListItem-menu .b_sp_over_item, 
+#b_results #brsv3 .b_vList a .b_suggestionText, 
+#rfPaneIn .touchQuery .carousel-scroll-wrapper .suggestion-title-wrapper .suggestion-title, 
+ .ftrP11, span#fltIdtLnk, .b_algoArticleTextCarousel .b_slidebar .slide .b_text
+.ftrSe, .vs_container .richImage .captionContainer, 
+#miniheader #miniheader_data .itm>div.it strong, 
+#miniheader #miniheader_data .itm>div.it, 
+.mc_vtvc_title, .mc_vtvc_meta_block, .mc_vtvc_meta_block a, #vvlb h2, 
+.newsitem .snippet, #sw_as .sa_as .sa_tm strong, #sw_as .sa_as .sa_sg .sa_tm, 
+#tta_srcsl optgroup, #tta_tgtsl optgroup,
+.tta_outtxt textarea, .tta_intxt textarea, .b_searchbox, .fdbtext, 
+#tt_perajx .b_module_expansion .b_onpage_expansion .b_expansion_text, 
+#b_results .b_topicon_container .b_topicon_text .b_attribution cite, .ftrSSL, 
+.b_caption p strong, #b_results .b_algo .b_vlist2col.b_deep, .b_attribution, 
+.b_algospacing .b_algospacing_title_link, .b_algospacing .b_algospacing_link, 
+.recommendationsTableTitle h2, .fbans>div>a, .b_top, 
+#b_results #brsv3 .b_vList a .b_suggestionText,
+#b_results>li .b_wikiRichcard_noHeroSection .b_wikiRichcard p, 
+.b_algoArticleTextCarousel .b_slidebar .slide .b_text, 
+.b_algoArticleTextCarousel .b_slidebar .slide .b_title,  #b_results, 
+#tabcontrol_4_5E7C03_menu .tab-active, 
+#b_super_task_pane .scs_faAc .b_module_expansion .b_expansion_text, 
+.scs_faAc .scs_faAcCon .rwrl_small, 
+.scs_faAc .b_module_expansion .b_expansion_text
+{color:var(--color) !important;}
+
+
+/* link */
+a, .b_scopebar .b_active a , .b_scopebar a
+{color:var(--link) !important;}
+/* color 3 */
+#b_super_task_pane .scs_c .scs_faTi h2, .scs_q, #scs_CF9FF2 .scs_faTi h2, 
+#b_super_task_pane .scs_c .scs_ssTi h2, 
+#scs_CF9FF2 .scs_gec .b_expansion_text,
+#b_super_task_pane .scs_c .scs_child .scs_ti h2
+{color:var(--color_2) !important;}
+
+/* fill */
+#tabcontrol_9_A3552F_navl.tab-disable .sv_ch, .ttrev_icon svg, #tta_clear svg, 
+.t_inputoptions svg, .t_outputoptions svg, .b_module_expansion .b_expansion_wrapper .sv_ch
+{fill:var(--color) !important;}
+
+
+/* border 0 */
+#b_header{
+	border-bottom:0px solid transparent;
+	filterx:drop-shadow(0px 0px 4px #000000);
+}
+/* header ctyle */
+#b_header, #HBContent
+{box-shadow:0 0 4px #000;}
+/* box_shadow wyniki */
+.b_algo.b_algoBorder, li.b_ans.b_mop.b_mopb
+{box-shadow:0 0 0 1px rgb(0, 0, 0), 0 2px 4px 0 rgba(0, 0, 0, 0.5) !important;}
+.scs_arw, .scs_cls{filter:invert(0.9);}
+
+#b_results>li#mfa_root{background:#0000 !important}
+/* linia transator */
+.tta_incell {border-right: 1px solid var(--color) !important;}
+/* ____________ */
+[id$=_menu][id^=tabcontrol] .tab-active, [id$=_menu][id^=tabcontrol] li:hover{
+box-shadow: inset 0 -3px 0 0 var(--color_0) !important;}
+/* invert - rozjaśnienie */
+#tta_speechiconsrc .mic_cont.partner #vs_mic_icon, .tvkeyRest
+{filter: invert(100%);}
+/* gradient  */
+.scs_faAc .scs_faAcCon div.scs_rdLnk::before, .scs_ti::after, 
+#scs_CF9FF2 .scs_faEfc .scs_rdLnk::before
+{background:linear-gradient(90deg,#0000 0%,var(--bg_1) 24px,var(--bg_1) 100%);}
+/* powitanie - button */
+#waitListDefault.containerWidth .actionContainer .link.secondary.fixed
+{color:var(--color_0) !important;height:auto;}
+#b_header{z-index:5;}
+
+*{transition:background-color 0.2s ease,box-shadow 0.2s ease,border-color 0.2s ease;}
+}

@@ -18,6 +18,7 @@
 ## [**My Dark Theme - Bing PRO**](https://userstyles.org/styles/263996/my-dark-theme-bing-pro)
 
 Ciemny motyw dla strony bing który stał się najbardzien znanym i popularnym ciemnym motywem dla strony bing. 
+Obecnie jest dostosowywany głównie pod przeglądarkę edge oraz powina działać bez problemu w innych przeglądarkach.
 
 
 ## [**My Dark Theme - Bing**](https://userstyles.org/styles/263995/my-dark-theme-bing)

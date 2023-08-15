@@ -2,7 +2,7 @@
 
 ## Strony i rodzaje stylów
 
-* [**My Dark Theme - VOX FM**](#VOX)
+* [**My Dark Theme - VOX FM**](#user-content-vox)
 
 * [**My Dark Theme - ESKA**](https://userstyles.org/styles/264599/my-dark-theme-eska)
 

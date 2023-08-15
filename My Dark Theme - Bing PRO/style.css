@@ -19,9 +19,10 @@
 @-moz-document 
 url-prefix(https://www.bing.com/search),
 url-prefix(https://www.bing.com/images/search),
+url-prefix(https://www.bing.com/videos/search),
 url-prefix(https://www.bing.com/account){
    /*bg_1 & color*/ 
-    body,.b_footer,.b_footer *
+    body,.b_footer,.b_footer *,.ftrD_MmVert,#mm_vdmb, .metadataArea
     {background:var(--bg_1)!important;color:var(--color_1)!important;}
     
   /*bg_1*/
@@ -29,13 +30,13 @@ url-prefix(https://www.bing.com/account){
     .vrhcprac .rdAction:hover,.thm_ThDf,#b_header,.b_widgetContainer .b_s_tag,
     #sa_ul *:hover,#b_context .b_entityTP,#lMapContainer .vertcard,#rfPane,.dg_b,
     .MicrosoftMap .taskBar,.MicrosoftMap .custom-scroll.sticky *,.touchQuery .items,
-    .MicrosoftMap .MapsInfoboxContainer,.MicrosoftMap .cardContent,
+    .MicrosoftMap .MapsInfoboxContainer,.MicrosoftMap .cardContent,#actionbar,
     .MicrosoftMap .bm_scrollbarMask,.inline_tile .card,#miniheader table,
     .b_wpt_bg .sydwrap_wrapper .b_wpt_chat,.tta_incell, #tta_tgtsl, #tta_srcsl,
     .sydwrap_wrapper .b_syd_input_container,.vs_container .richImage.relImg,
-    .sydwrap_wrapper [class*='input'] [class*='textarea'] ,
-    .sydwrap_wrapper .syd_qna_suggestion_item,
-    [id*='b_syd_sugg_arrow']
+    .sydwrap_wrapper [class*='input'] [class*='textarea'],#ftr_pane,#ftrB,
+    [id*='b_syd_sugg_arrow'],#b-scopeListItem-menu .b_sp_over_menu,
+    .sydwrap_wrapper .syd_qna_suggestion_item
     {background-color:var(--bg_1)!important;}
     
   /*bg_2*/
@@ -53,10 +54,11 @@ url-prefix(https://www.bing.com/account){
     .touchQuery .item,.b_rs_pole .b_vList>li,.b_caption .b_imagePair,.tta_outcell,
     #b_results .b_segmentv2,#b_results .b_wiki_bg_color_kc,.tta_outtxt>textarea
     {background-color:var(--bg_3)!important;background-image:var(--bg_3)!important;}
-    
-    .sa_hv,
+  /*bg_4*/
+    .sa_hv,.ftrH_MmVert:hover, .ftrH_MmVert:focus,#action_visible>a, #actionbar .action,
     .hb_card,.hb_section:focus,.hb_section:hover,.serp_thm:hover>.hb_section,
-    .serp_thm:visited>.hb_section
+    .serp_thm:visited>.hb_section,.ftrD_MmVert>*:hover, .ftrHh, .ftrHh:hover, 
+    .ftrVS, .ftrHSe, #b-scopeListItem-menu li.b_sp_over_item:hover
     {background:var(--bg_4)!important;}
   /*bg-gradient-bg_1 - 0*/
     .b_rc_gb_cover
@@ -89,8 +91,8 @@ url-prefix(https://www.bing.com/account){
     .b_canvas *:not(a):not(strong),.iacd .irp a.imgText.trunc, .MicrosoftMap .title,
     .MicrosoftMap .MapsInfoboxContainer *,.sb_meta,.wpc_module h2,.b_eImgSetTitle,
     .MicrosoftMap .overlay-taskpane .annotate .nameContainer,.overlay-taskpane li a,
-    .overlay-taskpane .calendarSyncLabel,.b_eImgSet a,.iuscp *,
-    .vs_container .richImage.relImg *
+    .overlay-taskpane .calendarSyncLabel,.b_eImgSet a,.iuscp *,.metadataBar .title,
+    .vs_container .richImage.relImg *,.ftrP11,#actionbar *,.mm_vdcv_label h2
     {color:var(--color_1)!important;}
     
   /*color_2*/
@@ -149,10 +151,7 @@ url-prefix(https://www.bing.com/account){
     }
     .sbiIdc{border: none!important;}
     .inline_tile .carousel{box-shadow: none!important; padding:0 10px;}
-    #b_header, #HBContent {
-        border: none;
-        box-shadow: 0 0 4px #000;
-    }
+    #b_header, #HBContent,.ftrD_MmVert{border: none;box-shadow: 0 0 4px #000;}
     .b_widgetIcon,#wikiWidgetContainer img
     {filter:invert(1);}
     .b_rebateSlug .algoSlug_icon, .b_algoSlug .algoSlug_icon
@@ -167,10 +166,12 @@ url-prefix(https://www.bing.com/account){
     {-webkit-transform-origin:-430px 0;transform-origin:-430px 0;}
     .user-prefix{color:#0000!important;}
   /*bg null*/
-    #b_results>li#mfa_root,#sa_ul *,.b_ans, #wpc_ag, .lm_seemorebar
+    #b_results>li#mfa_root,#sa_ul *,.b_ans, #wpc_ag, .lm_seemorebar,.dg_b .dg_u
     {background:#0000!important;}
+    .b_searchboxForm .b_searchboxSubmit
+    {background-color:#0000!important;}
 }
-@-moz-document url-prefix(https://www.bing.com/account/general){
+@-moz-document url-prefix(https://www.bing.com/account){
     .me_sectioncontent,.me_content .ctxt, .me_content select,.btn,
     #buttons.float_button_bar,.row.no-margins>*,.pb-title-nav-strip
     {background:var(--bg_1);}
@@ -188,4 +189,7 @@ url-prefix(https://www.bing.com/account){
     
   /* FIX */
     footer{position:relative!important;}
+}
+@-moz-document url-prefix(https://www.bing.com/videos/search){
+.videoTile .mc_vtvc_meta_w{background:#000c !important;}
 }

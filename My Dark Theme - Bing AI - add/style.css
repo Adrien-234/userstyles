@@ -16,85 +16,35 @@
       --KcWpPrimary:var(--bg_3);
 }}
 @-moz-document 
-url-prefix(https://www.bing.com/search),
-url-prefix(https://www.bing.com/images/search)
-{
+url-prefix(https://www.bing.com/search){
  /*bg_1 & color*/ 
 body,.b_footer,.b_footer *
 {background:var(--bg_1)!important;color:var(--color_1)!important;}
 
 /*bg_1*/
-#b_results>li,.b_leftgutterLinkContainer,.b_rc_gb_w_content,.b_scard,.ibs_btn,
-.vrhcprac .rdAction:hover,.thm_ThDf,#b_header,.b_widgetContainer .b_s_tag,
-#sa_ul *:hover,#b_context .b_entityTP,#lMapContainer .vertcard,#rfPane,.dg_b,
-.MicrosoftMap .taskBar,.MicrosoftMap .custom-scroll.sticky *,.touchQuery .items,
-.MicrosoftMap .MapsInfoboxContainer,.MicrosoftMap .cardContent,
-.MicrosoftMap .bm_scrollbarMask,.inline_tile .card,#miniheader table,
-.b_wpt_bg .sydwrap_wrapper .b_wpt_chat,.tta_incell, #tta_tgtsl, #tta_srcsl,
-.sydwrap_wrapper .b_syd_input_container,.vs_container .richImage.relImg,
-.sydwrap_wrapper [class*='input'] [class*='textarea'] ,
-.sydwrap_wrapper .syd_qna_suggestion_item,
-[id*='b_syd_sugg_arrow']
+#b_results
 {background-color:var(--bg_1)!important;}
 
 /*bg_2*/
-.vrhcprac .rdAction,#b_context,.scs_rdLnk.scs_rtlflip_b,.lite-entcard-main>*,
-.pagereco_CB,[class*='b_rc_gb_template_bg'],.hozdl_car .slide,.sbipane,.sbiIdc,
-.iuscp,.infopt,.touchQuery .carousel .carousel-controls [class*='nav']
+.vrhcprac
 {background:var(--bg_2)!important;}
 
 /*bg_3*/
-#b_results #brsv3 .b_vList li a,#b_content a.sb_pagS_bp,.mc_vtvc_meta,
-#b_results>.b_pag a:hover,#segmentWidgetContainer,.b_widgetContainer,
-.vrhcpt.vrhcpt_bg,.b_segSiteLink:hover,#HBContent,#sw_as *,.dropzone,
-.pagereco_CBImageCard, .pagereco_CBTextCard,.b_widgetContainer .b_s_tag a,
-.MicrosoftMap .taskBar .searchButton,.sydwrap_wrapper,.inline_tile .carousel,
-.touchQuery .item,.b_rs_pole .b_vList>li,.b_caption .b_imagePair,.tta_outcell,
-#b_results .b_segmentv2,#b_results .b_wiki_bg_color_kc,.tta_outtxt>textarea
+#b_results 
 {background-color:var(--bg_3)!important;background-image:var(--bg_3)!important;}
 
-.sa_hv,
-.hb_card,.hb_section:focus,.hb_section:hover,.serp_thm:hover>.hb_section,
-.serp_thm:visited>.hb_section
+.sa_hv
 {background:var(--bg_4)!important;}
-/*bg-gradient-bg_1 - 0*/
-.b_rc_gb_cover
-{background:linear-gradient(0deg,var(--bg_1),#0000)!important;}
-
-/*bg-gradient-bg_2*/
-.df_alaskcarousel .openans_gradient_div
-{background:linear-gradient(270deg,#fff -26.53%,transparent 100%)!important;}
-
-/*bg color_2*/
-mmmmmmmmmmmmmmmmmmmm
-{background: var(--color_2) !important;}
-
-/* shadow color_1 */
-#b_results li.b_ans.b_mop.b_mop,[id*="slideexp1_"] .b_slidebar .slide,
-#b_context .b_entityTP,.iarnd .irpserp .irp .irpu,[id*="slideexp0_"] .b_slidebar .slide
-{-webkit-box-shadow: 0 0 0 1px rgba(221,222,225,.15)!important;
-                  box-shadow: 0 0 0 1px rgba(221,222,225,.15)!important;}
-
 
 /*color_0*/
-#b_context .b_sydtgmin_txt
+#b_context
 {color:var(--color_0)!important;}
 /*color_1*/ 
-header *,#b_results, .b_sideBleed *,#b_results #brsv3 .b_vList li a, .b_blockinfo,
-.b_segmentCarouselWrapper *,#b_results p,.b_segSiteLink,#b_results .tptt,.b_text,
-.b_segmentWidgetSubTitle,#lgVidAnsContainer .mmtitle,#lgImgAnsContainer h2 a,
-#b_context *,.b_suggestionText,#b_algospacing a,.b_pag .sb_pagS_bp,.b_vList *,
-.b_rc_gb_sub_title a,.b_widgetContainer *,.b_ans *:not(a):not(strong),.vsathm  *,
-.b_canvas *:not(a):not(strong),.iacd .irp a.imgText.trunc, .MicrosoftMap .title,
-.MicrosoftMap .MapsInfoboxContainer *,.sb_meta,.wpc_module h2,.b_eImgSetTitle,
-.MicrosoftMap .overlay-taskpane .annotate .nameContainer,.overlay-taskpane li a,
-.overlay-taskpane .calendarSyncLabel,.b_eImgSet a,.iuscp *,
-.vs_container .richImage.relImg *
+header *
 {color:var(--color_1)!important;}
 
 /*color_2*/
-.b_caption, .snippet,.b_algo .b_factrow,.recommendationsTableTitle h2,
-#b_context h2,#b_context .b_expansion_text
+.b_caption, .snippet
 {color:var(--color_2)!important;}
 /*color_3*/
 #b_results .tpcn .b_attribution cite
@@ -103,31 +53,12 @@ header *,#b_results, .b_sideBleed *,#b_results #brsv3 .b_vList li a, .b_blockinf
 strong{color: inherit!important;}
 
 /*link_visited*/
-.link:visited,#b_results>li h2 a:visited,#b_results>li h3 a:visited,
-a .b_title:visited,
-.b_rc_gb_sub_column a:visited,
-.b_ans a:visited,
-.b_vlist2col a, .b_deep a:visited,
-.b_canvas a:visited,
-.b_canvas strong:visited,
-.MicrosoftMap .custom-scroll.sticky a:visited,
-#b_results>li table a:visited,
-.dlCollapsedCnt a:visited,.wpcbc a:visited
-/*.MicrosoftMap .cardContent a:visited*/
+.link:visited
 {color:var(--link_visited)!important;}
 
 /*link*/ 
 .link,#b_results>li h2 a,#b_results>li h3 a,
-a .b_title,
-.b_rc_gb_sub_column a,
-.b_ans a,
-.b_vlist2col a, .b_deep a,
-.b_canvas a,
-.b_canvas strong,
-.MicrosoftMap .custom-scroll.sticky a,
-#b_results>li table a,
-.dlCollapsedCnt a,.wpcbc a
-/*.MicrosoftMap .cardContent a*/
+a .b_title
 {color:var(--link)!important;}
 
 
@@ -156,16 +87,4 @@ input[type=text]
 {filter:invert(1);}
 .b_rebateSlug .algoSlug_icon, .b_algoSlug .algoSlug_icon
 {border: 1px solid;}
-.scs_ti::after, div.scs_rdLnk::before {
-    background: linear-gradient(90deg,#fff0 0%,var(--bg_2) 24px,var(--bg_2) 100%)!important;
-}
-.b_header_bg{z-index:0;} 
-.expctrl:before,.b_wiki_cover
-{background: linear-gradient(transparent,var(--bg_1));}
-.sb_pagN_bp:hover:after, .sb_pagN_bp:active:after, .sb_pagN_bp:focus:after
-{-webkit-transform-origin:-430px 0;transform-origin:-430px 0;}
-.user-prefix{color:#0000!important;}
-/*bg null*/
-#b_results>li#mfa_root,#sa_ul *,.b_ans, #wpc_ag, .lm_seemorebar
-{background:#0000!important;}
 }
